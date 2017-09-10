@@ -43,7 +43,7 @@ templates_path = ['_templates']
 source_suffix = '.rst'
 
 # The master toctree document.
-master_doc = 'whitepaper'
+master_doc = 'index'
 
 # General information about the project.
 project = u'EMQ 消息服务器产品白皮书'
