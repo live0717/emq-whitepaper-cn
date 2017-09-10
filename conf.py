@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# EMQ X 连接平台白皮书 documentation build configuration file, created by
+# EMQ 消息服务器产品白皮书 documentation build configuration file, created by
 # sphinx-quickstart on Sun Sep 10 19:34:45 2017.
 #
 # This file is execfile()d with the current directory set to its
@@ -46,7 +46,7 @@ source_suffix = '.rst'
 master_doc = 'whitepaper'
 
 # General information about the project.
-project = u'EMQ X 连接平台白皮书'
+project = u'EMQ 消息服务器产品白皮书'
 copyright = u'2017, EMQ Enterprise, Inc'
 author = u'EMQ Enterprise, Inc'
 
@@ -100,7 +100,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'EMQXwhitepaper'
+htmlhelp_basename = 'EMQwhitepaper'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -128,7 +128,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'EMQXwhitepaper.tex', u'EMQ X 连接平台白皮书',
+    (master_doc, 'EMQwhitepaper.tex', u'EMQ 消息服务器产品白皮书',
      u'EMQ Enterprise, Inc', 'manual'),
 ]
 
@@ -138,7 +138,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'emqxwhitepaper', u'EMQ X 连接平台白皮书',
+    (master_doc, 'emqwhitepaper', u'EMQ 消息服务器产品白皮书',
      [author], 1)
 ]
 
@@ -149,8 +149,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'EMQXwhitepaper', u'EMQ X 连接平台白皮书',
-     author, 'EMQX', 'One line description of project.',
+    (master_doc, 'EMQwhitepaper', u'EMQ 消息服务器产品白皮书',
+     author, 'EMQ', 'One line description of project.',
      'Miscellaneous'),
 ]
 
@@ -175,7 +175,6 @@ epub_copyright = copyright
 
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
-
 
 
 # Example configuration for intersphinx: refer to the Python standard library.
