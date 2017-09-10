@@ -1,5 +1,5 @@
 
-# emqx-whitepaper-cn
+# emq-whitepaper-cn
 
-EMQ X 中文白皮书
+EMQ 中文白皮书
 
