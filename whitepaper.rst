@@ -10,13 +10,13 @@ EMQ 消息服务器产品白皮书
 产品概述
 ========
 
-EMQ 是百万级分布式开源物联网 MQTT 消息服务器，通过双向发布订阅消息实时连接物联网终端(Device)、手机(Mobile)、数据(Data)、服务(Service)与应用(Application)。 EMQ 2.0 版本完整支持 MQTT V3.1/V3.1.1 版本协议规范，并扩展支持WebSocket、Stomp、CoAP、MQTT-SN或私有TCP协议。
+EMQ 是百万级分布式开源物联网 MQTT 消息服务器，通过双向发布订阅消息实时连接物联网终端(Device)、手机(Mobile)、数据(Data)、服务(Service)与应用(Application)。 EMQ 2.0 版本完整支持 MQTT V3.1/V3.1.1 版本协议规范，并扩展支持 WebSocket、Stomp、CoAP、MQTT-SN 或私有 TCP 协议。
 
-EMQ 为大规模终端连接(C1000K+)的物联网、车联网、工业物联网、移动推送、移动消息、智能硬件等应用，提供一个完全开放源码、安装部署简便、企业级稳定可靠、可弹性扩展、易于定制开发的MQTT消息服务器。
+EMQ 为大规模终端连接(C1000K+)的物联网、车联网、工业物联网、移动推送、移动消息、智能硬件等应用，提供一个完全开放源码、安装部署简便、企业级稳定可靠、可弹性扩展、易于定制开发的 MQTT 消息服务器。
 
 EMQ 项目采用 Apache 2.0 开源许可协议，最早于2013年由作者李枫在GitHub创建，截至2.3版本发布共经历近九十个版本迭代和演进。EMQ 是目前全球市场领先的开源 MQTT 消息服务器，广泛应用于中国、印度、北美、欧洲近五千个的物联网移动互联网项目。
 
-.. image:: ./static/images/emq.png
+.. image:: ./_static/images/emq.png
 
 MQTT 简介
 =========
@@ -114,11 +114,11 @@ MQTT 将是 IoT 领域的最重要的标准协议之一，将广泛用于物联�
 架构设计
 ========
 
-EMQ 基于基于电信级 Erlang/OTP 语言平台设计，高并发、软实时、低延时、容错处理，支持高可靠高可用节点集群。EMQ 集群按主题树(Topic Trie)和路由表(Routing Table)发布订阅模式在集群节点间转发路由MQTT消息:
+EMQ 基于基于电信级 Erlang/OTP 语言平台设计，高并发、软实时、低延时、容错处理，支持高可靠高可用节点集群。EMQ 集群按主题树(Topic Trie)和路由表(Routing Table)发布订阅模式在集群节点间转发路由 MQTT 消息:
 
-.. image:: ./static/images/emqarch.png
+.. image:: ./_static/images/emqarch.png
 
-EMQ 集群支持节点自动发现、自动集群，以及脑裂自动恢复；支持IP Multicast、DNS、Etcd、Kubernetes等多种自动集群策略。
+EMQ 集群支持节点自动发现、自动集群，以及脑裂自动恢复；支持 IP Multicast、DNS、Etcd、Kubernetes 等多种自动集群策略。
 
 扩展插件
 ========
